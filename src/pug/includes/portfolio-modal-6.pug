@@ -1,0 +1,29 @@
+// Portfolio Modal 6
+#portfolioModal6.portfolio-modal.modal.fade(tabindex='-1', aria-labelledby='portfolioModal6', aria-hidden='true')
+    .modal-dialog.modal-xl
+        .modal-content
+            .modal-header.border-0
+                button.btn-close(type='button', data-bs-dismiss='modal', aria-label='Close')
+            .modal-body.text-center.pb-5
+                .container
+                    .row.justify-content-center
+                        .col-lg-8
+                            // Portfolio Modal - Title
+                            h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0 Aura Health Freelance Project
+                            // Icon Divider
+                            .divider-custom
+                                .divider-custom-line
+                                .divider-custom-icon
+                                    i.fas.fa-star
+                                .divider-custom-line
+                            // Portfolio Modal - Image
+                            img.img-fluid.rounded.mb-5(src='assets/img/portfolio/aura.png', alt='...')
+                            // Portfolio Modal - Text
+                            p.mb-4
+                                | As a way to demonstrate my css capabilities, here is a freelance project I worked on
+                                | for Aura Health a mediatation app. The website supplemented the app 
+                                | by allowing teachers to upload meditations and choosing emotions, audio files, course title, etc...
+                                | This project is special in that it uses Next.js for the front-end and firebase for the backend.
+                            button.btn.btn-primary(data-bs-dismiss='modal')
+                                i.fas.fa-xmark.fa-fw
+                                | Close Window

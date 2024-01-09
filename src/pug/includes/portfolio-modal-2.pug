@@ -1,0 +1,37 @@
+// Portfolio Modal 2
+#portfolioModal2.portfolio-modal.modal.fade(tabindex='-1', aria-labelledby='portfolioModal2', aria-hidden='true')
+    .modal-dialog.modal-xl
+        .modal-content
+            .modal-header.border-0
+                button.btn-close(type='button', data-bs-dismiss='modal', aria-label='Close')
+            .modal-body.text-center.pb-5
+                .container
+                    .row.justify-content-center
+                        .col-lg-8
+                            // Portfolio Modal - Title
+                            h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0 Hellochess & Tetra AI
+                            // Icon Divider
+                            .divider-custom
+                                .divider-custom-line
+                                .divider-custom-icon
+                                    i.fas.fa-star
+                                .divider-custom-line
+                            // Portfolio Modal - Image
+                            img.img-fluid.rounded.mb-5(src='assets/img/portfolio/tetra.gif', alt='...')
+                            // Portfolio Modal - Text
+                            p.mb-4
+                                | Hellochess is a website I built after having a year long cooperative education hiatus from college.
+                                | While at the job, one of my coworkers brought a 4 player chess board to work and everyone
+                                | in the office took turns playing. When looking for a way to play online, I found that there
+                                | was no way to play 4 player chess online. So I built Hellochess on my spare time. The project
+                                | evolved several times from PHP to Node.js and finally to React.js. The website eventually
+                                | had a small community of players and was a great way to learn modern web development. 
+                                | Several enhancements were made to the website including a 4 player chess engine that I built 
+                                | from scratch. The engine is called Tetra AI and is a minimax algorithm with alpha-beta pruning. 
+                                | I had some interest from the chess community and a fellow developer named Joe, also added schess to 
+                                | the website. Here is 
+                                a(href='https://github.com/jak3122') Joe's github
+                                | if you want to check out his work.
+                            button.btn.btn-primary(data-bs-dismiss='modal')
+                                i.fas.fa-xmark.fa-fw
+                                | Close Window

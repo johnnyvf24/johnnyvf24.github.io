@@ -1,0 +1,39 @@
+// Portfolio Modal 3
+#portfolioModal3.portfolio-modal.modal.fade(tabindex='-1', aria-labelledby='portfolioModal3', aria-hidden='true')
+    .modal-dialog.modal-xl
+        .modal-content
+            .modal-header.border-0
+                button.btn-close(type='button', data-bs-dismiss='modal', aria-label='Close')
+            .modal-body.text-center.pb-5
+                .container
+                    .row.justify-content-center
+                        .col-lg-8
+                            // Portfolio Modal - Title
+                            h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0 Overcooked AI
+                            // Icon Divider
+                            .divider-custom
+                                .divider-custom-line
+                                .divider-custom-icon
+                                    i.fas.fa-star
+                                .divider-custom-line
+                            // Portfolio Modal - Image
+                            img.img-fluid.rounded.mb-5(src='assets/img/portfolio/a2c_asymmetric_room_solved.gif', alt='...')
+                            // Portfolio Modal - Text
+                            p.mb-4
+                                | In Fall 2023, I took a Reinforcment Learning course at Georgia Tech, which has
+                                | been my favorite course in OMSA so far. 
+                                | The course was created by Dr. Charles Isbell and Dr. Michael Littman and
+                                | was quite challenging. There were many great projects in the course, but
+                                | by far the hardest was the final project. For fall 2023, the final
+                                | project was unique as it was the first time the instructors introduced
+                                | a new multi-agent environment. The environment was based on the game of
+                                | Overcooked. The goal of the project was to create a pair of AI agents that could
+                                | work together to solve multiple layouts. The game was quite challenging as the agents
+                                | had to learn to work together. Ultimately, I was only able to solve 2 out of 5 layouts
+                                | but I was able to get the agents to work together. The agents were trained using
+                                | the A2C algorithm, but I got the chance to experiment with other algorithms such as
+                                | DQN and SARSA. The project was a great learning experience and I hope to continue
+                                | my exploration of reinforcement learning in the future.
+                            button.btn.btn-primary(data-bs-dismiss='modal')
+                                i.fas.fa-xmark.fa-fw
+                                | Close Window

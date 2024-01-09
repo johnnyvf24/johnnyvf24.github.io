@@ -1,538 +1,415 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>John Ventura Flickinger</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Theme CSS -->
-    <link href="css/freelancer.css" rel="stylesheet">
-    <link href="css/custom.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-
-<body id="page-top" class="index">
-<div id="skipnav"><a href="#maincontent">Skip to main content</a></div>
-
-    <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Flickinger</title>
+        <!-- Favicon-->
+        <!--link(rel='icon', type='image/x-icon', href='dist/assets/favicon.ico')-->
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="dist/css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top">John F.</a>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">John V. Flickinger</a>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
             </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image-->
+                <img class="masthead-avatar mb-5" src="dist/assets/img/me.jpg" alt="..." />
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0">John V Flickinger</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Masthead Subheading-->
+                <p class="masthead-subheading font-weight-light mb-0">Red Teamer - Software Developer - AI Practitioner</p>
             </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <!-- Header -->
-    <header>
-        <div class="container" id="maincontent" tabindex="-1">
-            <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive img-circle profile-pic" src="img/me.jpg" alt="">
-                    <div class="intro-text">
-                        <h1 class="name">John V. Flickinger</h1>
-                        <hr class="star-light">
-                        <span class="skills">Penetration Tester - Software Engineer - Web Developer</span>
+        </header>
+        <!-- Portfolio Section-->
+        <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center">
+                    <!-- Portfolio Item 1-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="dist/assets/img/portfolio/4playerchesscom.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="dist/assets/img/portfolio/hellochess.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="dist/assets/img/portfolio/overcookedai.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 4-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="dist/assets/img/portfolio/mesh_multiview.jpg" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 5-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="dist/assets/img/portfolio/mcts_vis.png" alt="..." />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 6-->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="dist/assets/img/portfolio/aura_login.png" alt="..." />
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </header>
-
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
-                    <hr class="star-primary">
+        </section>
+        <!-- About Section-->
+        <section class="page-section bg-primary text-white mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="row">
+                    <div class="col-lg-4 ms-auto"><p class="lead">Hello, welcome to my portfolio website! I am a red teamer at a large financial institution with a passion for Cybersecurity and Artificial Intelligence. You won't find my resume here, but feel free to reach out to me for a copy. Regardless, I have a variety of projects to display and some of these include software developed for prior jobs.</p></div>
+                    <div class="col-lg-4 me-auto"><p class="lead">My educational background is in Computer Science and Data Analytics, but I stumbled into offensive Cybersecurity and have been enjoying the field for the last 7 years. However, I also have a large amount of experience doing full stack web dev and never shy away from a hard software project. Feel free to reach out to me if you have any questions!</p></div>
+                </div>
+                <!-- About Section Button-->
+            </div>
+        </section>
+        <!-- Contact Section-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <!-- Contact Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Contact Section Form-->
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-xl-7"><p class="lead text-center">johnnyvf24@gmail.com</p></div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+        </section>
+        <!-- Footer-->
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Location-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Location</h4>
+                        <p class="lead mb-0">
+                            New Mexico,
+                            <br />
+                            United States
+                        </p>
+                    </div>
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Around the Web</h4>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/john-flickinger-52249365"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                    </div>
+                    <!-- Footer About Text-->
+                    <div class="col-lg-4">
+                        <h4 class="text-uppercase mb-4">About Theme.</h4>
+                        <p class="lead mb-0">
+                            This website was created from
+                            <a href="https://github.com/startbootstrap/startbootstrap-freelancer">this theme</a>
+                            and modified by John Flickinger.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Copyright Section-->
+        <div class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright &copy; johnnyvf24.github.io 2023</small></div>
+        </div>
+        <!-- Portfolio Modals-->
+        <!-- Portfolio Modal 1-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Chess.com</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <!--img.img-fluid.rounded.mb-5(src='assets/img/portfolio/cabin.png', alt='...')-->
+                                    <iframe class="rounded mb-5" width="100%" height="380" src="https://www.youtube.com/embed/Giqbk-vSMlc" title="How To Play 4 Player Chess" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">
+                                        By far one of the most impressive projects I have built to date is still up on chess.com
+                                        <a href="https://www.chess.com/4-player-chess">here.</a>
+                                        Recently graduated and while freelancing I was hired to integrate my other project hellochess (also in this portfolio) into chess.com as a proof-of-concept. ofcourse the initial version was not nearly as refined as the current version but even then most of the core features were there including drawing arrows during Team games.
+                                    </p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
                             </div>
                         </div>
-                        <img src="img/portfolio/board_chess.png" class="img-responsive" alt="hellochess">
-                    </a>
+                    </div>
                 </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+            </div>
+        </div>
+        <!-- Portfolio Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Hellochess & Tetra AI</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="dist/assets/img/portfolio/tetra.gif" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">
+                                        Hellochess is a website I built after having a year long cooperative education hiatus from college. While at the job, one of my coworkers brought a 4 player chess board to work and everyone in the office took turns playing. When looking for a way to play online, I found that there was no way to play 4 player chess online. So I built Hellochess on my spare time. The project evolved several times from PHP to Node.js and finally to React.js. The website eventually had a small community of players and was a great way to learn modern web development. Several enhancements were made to the website including a 4 player chess engine that I built from scratch. The engine is called Tetra AI and is a minimax algorithm with alpha-beta pruning. I had some interest from the chess community and a fellow developer named Joe, also added schess to the website. Here is
+                                        <a href="https://github.com/jak3122">Joe's github</a>
+                                        if you want to check out his work.
+                                    </p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
                             </div>
                         </div>
-                        <img src="img/portfolio/mesh1.png" class="img-responsive" alt="MESH 1">
-                    </a>
+                    </div>
                 </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+            </div>
+        </div>
+        <!-- Portfolio Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Overcooked AI</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="dist/assets/img/portfolio/a2c_asymmetric_room_solved.gif" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">
+                                        In Fall 2023, I took a Reinforcment Learning course at Georgia Tech, which has been my favorite course in OMSA so far. The course was created by Dr. Charles Isbell and Dr. Michael Littman and was quite challenging. There were many great projects in the course, but by far the hardest was the final project. For fall 2023, the final project was unique as it was the first time the instructors introduced a new multi-agent environment. The environment was based on the game of Overcooked. The goal of the project was to create a pair of AI agents that could work together to solve multiple layouts. The game was quite challenging as the agents had to learn to work together. Ultimately, I was only able to solve 2 out of 5 layouts but I was able to get the agents to work together. The agents were trained using the A2C algorithm, but I got the chance to experiment with other algorithms such as DQN and SARSA. The project was a great learning experience and I
+                                        hope to continue my exploration of reinforcement learning in the future.
+                                    </p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
                             </div>
                         </div>
-                        <img src="img/portfolio/tetra.png" class="img-responsive" alt="Tetra AI">
-                    </a>
+                    </div>
                 </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+            </div>
+        </div>
+        <!-- Portfolio Modal 4-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Controller</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="dist/assets/img/portfolio/mesh1.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">
+                                        From early 2016 till my graduation in May 2017 I worked for Dr. William Yeoh on a National Science Foundation funded project. The project, which we named MESH, (Mult-agent Energy-efficient Smart Homes) was a distributed Smart Home project with the aim of reducing peak power consumption usage (e.g. the time of day when energy costs the most). The project was awesome, unfortunately, the team met several hickups and one of them required a re-write of our entire code-base. After I realized most of my code would need to be re-written I decided to re-write my PHP/Codeigniter application into NodeJS and Express. Long story short my project was extremely dependent upon changes to each house agent controlled in Java and constant changes to the database schema resulted in medial progress. Ultimately a basic version of the application was finished and I am really happy with the resulting application that used TypeScript, React, Redux, and NodeJS. If you
+                                        want to read more about the project please visit this website (which I also built).
+                                    </p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
                             </div>
                         </div>
-                        <img src="img/portfolio/early_math2.png" class="img-responsive" alt="Game controller">
-                    </a>
+                    </div>
                 </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+            </div>
+        </div>
+        <!-- Portfolio Modal 5-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Experiments with Mancala</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="dist/assets/img/portfolio/gmkalah.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">
+                                        I have a long history with the game of Mancala. I first learned the game on an old Nokia mobile phone and have been fascinated ever since. During my undergraduate AI course our teacher challenged the class to a mancala tournament using 6 pebbles per pit. I was able to win the tournament convincingly using GMKalah, a mancala AI I built in C using Alpha-Beta pruning and a strong evaluation function. I have since built several Mancala AI's using different algorithms and languages. My primary goal has been to build a muzero Mancala AI but with minimal help from the internet. In 2017 I was able to leverage opensource code to build an AlphaZero Mancala AI, but it was unable to beat GMKalah and also leverage much code that I did not write. I have since built a more original AlphaZero Mancala AI using Python and Pytorch with additional features that graph the Monte Carlo Tree Search as the AI expands the search space, but ultimately my goal is to enhance
+                                        the algorithm with MuZero and finally dethrone my old GMKalah AI. All this ofcourse, is done as a hobby, but the project has been a great way to learn about reinforcement learning and planning algorithms.
+                                    </p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
                             </div>
                         </div>
-                        <img src="img/portfolio/gmkalah.png" class="img-responsive" alt="Kalah Agent">
-                    </a>
+                    </div>
                 </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+            </div>
+        </div>
+        <!-- Portfolio Modal 6-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Aura Health Freelance Project</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="dist/assets/img/portfolio/aura.png" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">As a way to demonstrate my css capabilities, here is a freelance project I worked on for Aura Health a mediatation app. The website supplemented the app by allowing teachers to upload meditations and choosing emotions, audio files, course title, etc... This project is special in that it uses Next.js for the front-end and firebase for the backend.</p>
+                                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                                        <i class="fas fa-xmark fa-fw"></i>
+                                        Close Window
+                                    </button>
+                                </div>
                             </div>
                         </div>
-                        <img src="img/portfolio/aura_login.png" class="img-responsive" alt="Submarine">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p> 
-                    Hello, my name is John Ventura Flickinger. I'm a Cybersecurity Researcher that currently resides in Albuquerque, 
-                    New Mexico (United States). I obtained a B.S. in Computer Science from New Mexico State University in 2017 and am 
-                    currently pursuing an Online M.S. in Data Analytics from Georgia Tech. AI is a really exciting topic and I look 
-                    forward to seeing how far humanity can go with it.
-                    </p>
-                </div>
-                <div class="col-lg-4">
-                    <p> 
-                    Although I consider myself a general/handy software guy, I have recently spent a large amount of time focusing on 
-                    improving my penetration testing skills. To study cybersecurity it is important to understand the criminal mindset.
-                    There is beauty in the art of breaking software systems. I have learned importance of secure software and am hoping
-                    to improve my skillset each day.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Contact Me</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <center class="contact-contain">
-                        <div>
-                            <label>Email: </label> johnnyvf24@gmail.com
-                            <label>HackTheBox: </label> johnnyvf24
-                        </div>
-                    </center>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4 col-md-offset-4">
-                        <h3>Around the Web</h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="https://www.facebook.com/people/John-Ventura-Flickinger/100001046612893" target="_blank" class="btn-social btn-outline"><span class="sr-only">Facebook</span><i class="fa fa-fw fa-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://plus.google.com/u/0/110605354589965255066" target="_blank" class="btn-social btn-outline"><span class="sr-only">Google Plus</span><i class="fa fa-fw fa-google-plus"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/john-flickinger-52249365" target="_blank" class="btn-social btn-outline"><span class="sr-only">Linked In</span><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                        </ul>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        Copyright &copy; johnnyvf24.github.io 2017
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
-    </div>
-
-    <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>HelloChess</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/hellochess_2.png" class="img-responsive img-centered" alt="">
-                            <p>My final year in college, I worked on a side project which I named HelloChess, a chess website with 4 player chess.
-                                The initial version of HelloChess was written in PHP using the Codeigniter framework, but I still relied on NodeJS for real-time moves.
-                                After a while I decided to revamp the project, I rewrote most of the website to run entirely on NodeJS, Socket.io, and React with Redux.
-                                After a while I met another enthusiastic chess-player/programmer named Joe who added S-Chess, Crazyhouse960 and FullHouse (a new variant). Given
-                                how much Joe helped me, I decided to make him co-owner of the website. Currently we both still contribute to the website whenever we have
-                                spare time.
-                                The website can be found <a href="https://hellochess.com" target="_blank">here</a> and the code on <a href="https://github.com/johnnyvf24/hellochess-v2" target="_blank">Github</a>
-                            </p>
-                            <ul class="list-inline item-details">
-                                <li>Date:
-                                    <strong><a href="#">2016-2017</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="#">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>MESH Web Application</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/mesh_multiview.jpg" class="img-responsive img-centered" alt="">
-                            <p>
-                                From early 2016 till my graduation in May 2017 I worked for Dr. William Yeoh on a National Science
-                                Foundation funded project. The project, which we named MESH, (Mult-agent Energy-efficient Smart Homes)
-                                was a distributed Smart Home project with the aim of reducing peak power consumption usage (e.g. the time
-                                of day when energy costs the most). The project was awesome, unfortunately, the team met several hickups
-                                and one of them required a re-write of our entire code-base. After I realized most of my code would need to be
-                                re-written I decided to re-write my PHP/Codeigniter application into NodeJS and Express. Long story short
-                                my project was extremely dependent upon changes to each house agent controlled in Java and constant
-                                changes to the database schema resulted in medial progress. Ultimately a basic version of the application
-                                was finished and I am really happy with the resulting application that used TypeScript, React, Redux,
-                                and NodeJS. If you want to read more about the project please visit
-                                <a href="https://www.cs.nmsu.edu/mesh/">this</a>
-                                website (which I also built).
-                            </p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="https://www.cs.nmsu.edu/mesh/">MESH</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="#">Jan 2016 - May 2017</a>
-                                    </strong>
-                                </li>
-                                <li>Topic:
-                                    <strong><a href="#">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Tetra Chess AI</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/tetra.gif" class="img-responsive img-centered" alt="">
-                            <p>
-                                I had finally finished the initial version of HelloChess! Unfortunately, (also fortunately) my curiosity got
-                                the best of me. My mind dwelled on how cool it would be to build a 4 player chess AI. Thoughts are expensive,
-                                perhaps not in money but definitly in effort, time, and grey hair. I spent a solid 3-4 weeks programming the initial
-                                version of Tetra in September 2016. My first version was written in JavaScript, but I should have known better.
-                                JavaScript is not the most performant language and I would need alot of power to calculate all those positions
-                                (also to compensate for my less than ideal code). Ultimately I rewrote the engine in C. After several iterations,
-                                I had soemthing to show. The engine was capped at a depth of about 6 ply (1.5 turn/board rotations) before the engine would take
-                                exceedingly long, but the engine was still strong enough to beat most human players. Furthermore, having 3 engines
-                                of equal thinking makes the game much harder!
-                            </p>
-                            <ul class="list-inline item-details">
-                                <li>Code:
-                                    <strong><a href="https://github.com/johnnyvf24/tetra">Github</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="#">September 2016</a>
-                                    </strong>
-                                </li>
-                                <li>Topic:
-                                    <strong><a href="http://startbootstrap.com">Artificial Intelligence</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Early Math Education Application</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/early_math.png" class="img-responsive img-centered" alt="">
-                            <p>
-                                The Early Math Education App for the Visually Impaired was a group project created
-                                for my Senior Project class at New Mexico State University. This application was given
-                                to us at random and was to be programmed by 6 fellow classmates (although if I'm completely
-                                honest only 2 of us did any actual project work). The client of this application,
-                                an elementary teacher, required the application for several of her students which had
-                                visual impairments. According to the client, there were no other apps available for her to use
-                                on children that were color blind, or legally blind. The final version contained several counting
-                                excercises that could be customized to each student's disabilities. The teacher was given
-                                the ability to create profiles that could be re-used for multiple students.
-                            </p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="#">Elementary School teacher</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="#">Jan - May 2017</a>
-                                    </strong>
-                                </li>
-                                <li>Topic:
-                                    <strong><a href="#">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Kalah Agent</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/gmkalah.png" class="img-responsive img-centered" alt="">
-                            <p>
-                                During the Spring of 2016, my junior year at university, I was taking an Artificial Intelligence class.
-                                At the end of the semester my teacher had a class competition to see who could program the best Kalah agent.
-                                The winner of the class would get extra points! Seeing as I had slacked off a little too much, I decided to
-                                enter the competition. Long story short, GMKalah (what I called my agent) won the competition. It was quite
-                                nervewracking to see my AI down almost 30 beans in one round! Luckily, the AI pulled through to win. The
-                                Agent used very traditional techniques to win the competition. The most complicated part was alpha-beta search
-                                with iterative deepening. My attempts at parallelizing the agent were futile as there just wasn't enough time
-                                for a more elaborative AI. What was my secret then? A very sophisticated evaluation function that would
-                                allow me to reach depth 18 within reasonable time. In fact, I was unable to find another agent on the internet
-                                that could beat GMKalah (ignoring the fact that someone has solved the game now).
-                            </p>
-                            <ul class="list-inline item-details">
-                                <li>Code:
-                                    <strong><a href="https://github.com/johnnyvf24/GMKalah-AI" target="_blank">Github</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="#">May 2016</a>
-                                    </strong>
-                                </li>
-                                <li>Topic:
-                                    <strong><a href="#">Artificial Intelligence</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Aura Health</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/aura.png" class="img-responsive img-centered" alt="">
-                            <p>A small website I built for Aura, an app that is used for meditation. The website supplements the app by allowing teachers to upload meditations and choosing emotions, audio files, title, etc... This project is special in that it uses Next.js for the front-end and firebase for the backend.</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="#">Aura Health</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="#">2017</a>
-                                    </strong>
-                                </li>
-                                <li>Topic:
-                                    <strong><a href="#">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button id="btnSubmit" type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="js/freelancer.min.js"></script>
-
-</body>
-
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="dist/js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
 </html>

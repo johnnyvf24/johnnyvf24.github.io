@@ -1,0 +1,41 @@
+// Portfolio Modal 5
+#portfolioModal5.portfolio-modal.modal.fade(tabindex='-1', aria-labelledby='portfolioModal5', aria-hidden='true')
+    .modal-dialog.modal-xl
+        .modal-content
+            .modal-header.border-0
+                button.btn-close(type='button', data-bs-dismiss='modal', aria-label='Close')
+            .modal-body.text-center.pb-5
+                .container
+                    .row.justify-content-center
+                        .col-lg-8
+                            // Portfolio Modal - Title
+                            h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0 Experiments with Mancala
+                            // Icon Divider
+                            .divider-custom
+                                .divider-custom-line
+                                .divider-custom-icon
+                                    i.fas.fa-star
+                                .divider-custom-line
+                            // Portfolio Modal - Image
+                            img.img-fluid.rounded.mb-5(src='assets/img/portfolio/gmkalah.png', alt='...')
+                            // Portfolio Modal - Text
+                            p.mb-4
+                                | I have a long history with the game of Mancala. I first learned the game
+                                | on an old Nokia mobile phone and have been fascinated ever since.
+                                | During my undergraduate AI course our teacher challenged the class to a
+                                | mancala tournament using 6 pebbles per pit. I was able to win the tournament
+                                | convincingly using GMKalah, a mancala AI I built in C using Alpha-Beta pruning
+                                | and a strong evaluation function. I have since built several Mancala AI's
+                                | using different algorithms and languages. My primary goal has been to build
+                                | a muzero Mancala AI but with minimal help from the internet. In 2017 I was able
+                                | to leverage opensource code to build an AlphaZero Mancala AI, but it was unable to
+                                | beat GMKalah and also leverage much code that I did not write. 
+                                | I have since built a more original AlphaZero Mancala AI using Python and Pytorch
+                                | with additional features that graph the Monte Carlo Tree Search as the AI expands
+                                | the search space, but ultimately my goal is to enhance the algorithm with MuZero
+                                | and finally dethrone my old GMKalah AI. All this ofcourse, is done as a hobby,
+                                | but the project has been a great way to learn about reinforcement learning and
+                                | planning algorithms.
+                            button.btn.btn-primary(data-bs-dismiss='modal')
+                                i.fas.fa-xmark.fa-fw
+                                | Close Window

@@ -1,0 +1,38 @@
+// Portfolio Modal 4
+#portfolioModal4.portfolio-modal.modal.fade(tabindex='-1', aria-labelledby='portfolioModal4', aria-hidden='true')
+    .modal-dialog.modal-xl
+        .modal-content
+            .modal-header.border-0
+                button.btn-close(type='button', data-bs-dismiss='modal', aria-label='Close')
+            .modal-body.text-center.pb-5
+                .container
+                    .row.justify-content-center
+                        .col-lg-8
+                            // Portfolio Modal - Title
+                            h2.portfolio-modal-title.text-secondary.text-uppercase.mb-0 Controller
+                            // Icon Divider
+                            .divider-custom
+                                .divider-custom-line
+                                .divider-custom-icon
+                                    i.fas.fa-star
+                                .divider-custom-line
+                            // Portfolio Modal - Image
+                            img.img-fluid.rounded.mb-5(src='assets/img/portfolio/mesh1.png', alt='...')
+                            // Portfolio Modal - Text
+                            p.mb-4
+                                | From early 2016 till my graduation in May 2017 I worked for 
+                                | Dr. William Yeoh on a National Science Foundation funded project.
+                                | The project, which we named MESH, (Mult-agent Energy-efficient Smart Homes)
+                                | was a distributed Smart Home project with the aim of reducing 
+                                | peak power consumption usage (e.g. the time of day when energy costs the most).
+                                | The project was awesome, unfortunately, the team met several 
+                                | hickups and one of them required a re-write of our entire code-base. 
+                                | After I realized most of my code would need to be re-written 
+                                | I decided to re-write my PHP/Codeigniter application into NodeJS and Express. 
+                                | Long story short my project was extremely dependent upon changes 
+                                | to each house agent controlled in Java and constant changes to 
+                                | the database schema resulted in medial progress. Ultimately a 
+                                | basic version of the application was finished and I am really happy with the resulting application that used TypeScript, React, Redux, and NodeJS. If you want to read more about the project please visit this website (which I also built). 
+                            button.btn.btn-primary(data-bs-dismiss='modal')
+                                i.fas.fa-xmark.fa-fw
+                                | Close Window
